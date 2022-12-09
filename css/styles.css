@@ -1,0 +1,355 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  color: #A27B5C;
+}
+
+p {
+  color: Black;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 5.5;
+  color: #000000;
+  margin-bottom: 0px;
+  padding-left: 90px;
+  font-size: 60px;
+}
+
+.Small-heading{
+  color: Black;
+}
+
+.big-subheading{
+  color: #A27B5C;
+  padding-left: 66%;
+}
+
+/* skills */
+
+.section-heading {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+
+.table{
+  border-color: #f1eee7;
+}
+
+.webd{
+  font-weight: bold;
+  float: left;
+}
+
+.compprog{
+  text-align: left;
+}
+
+.allplat{
+  text-align: left;
+}
+
+.portweb{
+  position: relative;
+  float: left;
+}
+
+.aboutwebd{
+  text-align: left;
+  width: 40%;
+  color: #A27B5C;
+  margin-right: 100%;
+}
+
+.aboutcp{
+  color: #A27B5C;
+  text-align: left;
+}
+
+.list{
+  margin-right: 100%;
+  text-align: left;
+}
+
+.heads{
+  color: #fff;
+  text-align: left;
+  letter-spacing: 0.3rem;
+}
+
+.info{
+  color: white;
+  text-align: left;
+  font-weight: lighter;
+}
+
+/* images */
+.rows{
+  display: inline-flex;
+  float: left;
+}
+
+.column {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.column-2 {
+  height: 80px;
+}
+
+.faltu{
+  padding-left: 550px;
+}
+
+.cybersec{
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin-right: 100px;
+}
+.blogs{
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin-right: 100px;
+}
+
+.extra-img-1{
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+
+.extra-img-2{
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+  float: none;
+}
+
+.extra-img-3{
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+  float: right;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #A27B5C;
+  color: white;
+}
+
+.white-section {
+  background-color: #f1eee7;
+}
+
+.extracurri{
+  height: 400px;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.gap{
+  color: black;
+}
+
+/* Navigation Bar */
+
+.logo{
+  width: 100px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem ;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #A27B5C;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #A27B5C;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #A27B5C;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #f1eee7;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+
+}
+
+/* Title Image */
+
+.title-image {
+  width: 65%;
+  transform: rotate(0deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+.computer-img{
+  width: 35%;
+}
+
+.chillies-img{
+  width: 45%;
+  padding-bottom: 8px;
+}
+
+.icon {
+  color: #A27B5C;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #D8CCA3;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #A27B5C;
+  padding: 100px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 50px;
+  font-family: "Ubuntu";
+}
+
+.student-image{
+  padding-right: 40%;
+  margin-top: 20px;
+}
+
+.details-1{
+  color: white;
+  padding-left: 80px;
+  padding-top: 20px;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+.details-2{
+  color: black;
+  width: 80%;
+  margin-left: 25px;
+  padding-top: 40px;
+  float: left;
+  font-size: 0.8rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #f1eee7;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#skills {
+  padding: 150px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.lang-logo {
+  width: 15%;
+  margin: 20px 20px 10px;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
